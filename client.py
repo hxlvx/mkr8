@@ -1,3 +1,4 @@
+#МКР ГОЛОВАТЮК КІ-23
 import socket
 import struct
 import json
@@ -6,6 +7,7 @@ import random
 
 HOST = '127.0.0.1'
 PORT = 65434
+
 
 def send_data(sock, data):
     """Функція для відправлення даних через сокет."""
@@ -54,3 +56,4 @@ def start_client():
 
 if __name__ == "__main__":
     start_client()
+#Головатюк Михайло КІ-23 МКР
