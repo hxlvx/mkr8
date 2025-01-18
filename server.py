@@ -8,7 +8,7 @@ HOST = '0.0.0.0'
 PORT = 65434
 
 def read_bytes(sock, size):
-    """Функція для зчитування вказаної кількості байтів з сокету."""
+
     buffer = b''
     while len(buffer) < size:
         part = sock.recv(size - len(buffer))
@@ -67,3 +67,4 @@ def start_server():
 
 if __name__ == "__main__":
     start_server()
+#Головатюк Михайло КІ-23 МКР
